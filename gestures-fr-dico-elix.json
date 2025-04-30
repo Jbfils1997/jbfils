@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "language": "fr",
+  "metadata": {
+    "lastUpdated": "2024-01-20",
+    "source": "Dico Elix",
+    "totalGestures": 0,
+    "categories": [
+      "base",
+      "expressions",
+      "actions",
+      "objets",
+      "concepts",
+      "emotions"
+    ],
+    "attributes": {
+      "familiarite": "Niveau de familiarité du geste (1-5)",
+      "concretude": "Niveau de concrétude du concept (1-5)",
+      "iconicite": "Niveau d'iconicité du geste (1-5)",
+      "complexite": "Niveau de complexité du mouvement (1-5)",
+      "frequence": "Fréquence d'utilisation dans la langue (1-5)"
+    },
+    "motion_data": {
+      "format": "sequence",
+      "components": [
+        "hand_position",
+        "hand_rotation",
+        "finger_positions",
+        "movement_path",
+        "timing"
+      ]
+    }
+  },
+  "gestures": {}
+}

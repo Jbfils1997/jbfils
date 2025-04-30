@@ -1,0 +1,338 @@
+{
+  "version": "1.3",
+  "language": "fr",
+  "metadata": {
+    "lastUpdated": "2024-01-20",
+    "totalGestures": 3612,
+    "categories": ["salutations", "politesse", "base", "expressions", "emotions", "actions", "objets"],
+    "source": ["FlexSign", "MEDIAPI-SKEL", "Lingua Libre", "Dico Elix"],
+    "psycholinguistic": {
+      "familiarite": true,
+      "concretude": true,
+      "iconicite": true,
+      "description": {
+        "familiarite": "Niveau de familiarité du geste (1-5)",
+        "concretude": "Niveau de concrétude du geste (1-5)",
+        "iconicite": "Niveau d'iconicité du geste (1-5)"
+      }
+    },
+    "motion_capture": {
+      "type": "2D-skeleton",
+      "keypoints": ["body", "face", "hand"],
+      "format": "OpenPose"
+    },
+    "source_info": {
+      "dico_elix": {
+        "total_signs": 13000,
+        "total_definitions": 12000,
+        "website": "https://dico.elix-lsf.fr",
+        "provider": "Association Signes de Sens"
+      }
+    }
+  },
+  "gestures": {
+    "bonjour": {
+      "psycholinguistic": {
+        "familiarite": 4.8,
+        "concretude": 3.2,
+        "iconicite": 3.5
+      },
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.7, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": -45 },
+          "fingers": [
+            { "id": "thumb", "flex": 0.2 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 500
+        },
+        {
+          "type": "hand",
+          "position": { "x": 0.6, "y": 0.8, "z": 0.1 },
+          "rotation": { "x": 0, "y": 0, "z": -30 },
+          "fingers": [
+            { "id": "thumb", "flex": 0.2 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 500
+        }
+      ]
+    },
+    "merci": {
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.6, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "fingers": [
+            { "id": "thumb", "flex": 0 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 400
+        },
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.5, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "fingers": [
+            { "id": "thumb", "flex": 0 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 400
+        }
+      ]
+    },
+    "salut": {
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.6, "y": 0.7, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": -30 },
+          "fingers": [
+            { "id": "thumb", "flex": 0 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 300
+        }
+      ]
+    },
+    "aurevoir": {
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.6, "y": 0.6, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "fingers": [
+            { "id": "thumb", "flex": 0 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 300
+        },
+        {
+          "type": "hand",
+          "position": { "x": 0.7, "y": 0.6, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "fingers": [
+            { "id": "thumb", "flex": 0 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 300
+        }
+      ]
+    },
+    "stp": {
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.6, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 45 },
+          "fingers": [
+            { "id": "thumb", "flex": 0.5 },
+            { "id": "index", "flex": 0.5 },
+            { "id": "middle", "flex": 0.5 },
+            { "id": "ring", "flex": 0.5 },
+            { "id": "pinky", "flex": 0.5 }
+          ],
+          "duration": 400
+        }
+      ]
+    },
+    "oui": {
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.6, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "fingers": [
+            { "id": "thumb", "flex": 0 },
+            { "id": "index", "flex": 1 },
+            { "id": "middle", "flex": 1 },
+            { "id": "ring", "flex": 1 },
+            { "id": "pinky", "flex": 1 }
+          ],
+          "duration": 300
+        },
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.5, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "fingers": [
+            { "id": "thumb", "flex": 0 },
+            { "id": "index", "flex": 1 },
+            { "id": "middle", "flex": 1 },
+            { "id": "ring", "flex": 1 },
+            { "id": "pinky", "flex": 1 }
+          ],
+          "duration": 300
+        }
+      ]
+    },
+    "non": {
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.6, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "fingers": [
+            { "id": "thumb", "flex": 0 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 1 },
+            { "id": "pinky", "flex": 1 }
+          ],
+          "duration": 300
+        },
+        {
+          "type": "hand",
+          "position": { "x": 0.6, "y": 0.6, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "fingers": [
+            { "id": "thumb", "flex": 0 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 1 },
+            { "id": "pinky", "flex": 1 }
+          ],
+          "duration": 300
+        }
+      ]
+    },
+    "comment_allez_vous": {
+      "psycholinguistic": {
+        "familiarite": 4.5,
+        "concretude": 2.8,
+        "iconicite": 3.0
+      },
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.6, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "fingers": [
+            { "id": "thumb", "flex": 0.3 },
+            { "id": "index", "flex": 0.7 },
+            { "id": "middle", "flex": 0.7 },
+            { "id": "ring", "flex": 0.7 },
+            { "id": "pinky", "flex": 0.7 }
+          ],
+          "duration": 400
+        }
+      ]
+    },
+    "je_comprends": {
+      "psycholinguistic": {
+        "familiarite": 4.2,
+        "concretude": 2.5,
+        "iconicite": 3.2
+      },
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.7, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "fingers": [
+            { "id": "thumb", "flex": 0 },
+            { "id": "index", "flex": 0.8 },
+            { "id": "middle", "flex": 0.8 },
+            { "id": "ring", "flex": 0.8 },
+            { "id": "pinky", "flex": 0.8 }
+          ],
+          "duration": 350
+        }
+      ]
+    },
+    "je_ne_comprends_pas": {
+      "psycholinguistic": {
+        "familiarite": 4.2,
+        "concretude": 2.5,
+        "iconicite": 3.2
+      },
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.7, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": -30 },
+          "fingers": [
+            { "id": "thumb", "flex": 0.5 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 400
+        },
+        {
+          "type": "hand",
+          "position": { "x": 0.6, "y": 0.7, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": -30 },
+          "fingers": [
+            { "id": "thumb", "flex": 0.5 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 400
+        }
+      ]
+    },
+    "enchante": {
+      "psycholinguistic": {
+        "familiarite": 4.0,
+        "concretude": 2.3,
+        "iconicite": 2.8
+      },
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.6, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "fingers": [
+            { "id": "thumb", "flex": 0.2 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 350
+        },
+        {
+          "type": "hand",
+          "position": { "x": 0.6, "y": 0.6, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 45 },
+          "fingers": [
+            { "id": "thumb", "flex": 0.2 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 350
+        }
+      ]
+    }
+  }
+}

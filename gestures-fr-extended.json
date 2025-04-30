@@ -1,0 +1,52 @@
+{
+  "version": "1.1",
+  "language": "fr",
+  "metadata": {
+    "lastUpdated": "2024-01-20",
+    "totalGestures": 546,
+    "categories": ["salutations", "politesse", "base", "expressions", "emotions", "actions", "objets"],
+    "source": "FlexSign LSF Database",
+    "attributes": {
+      "familiarite": "Niveau de familiarité du geste (1-5)",
+      "concretude": "Niveau de concrétude du geste (1-5)",
+      "iconicite": "Niveau d'iconicité du geste (1-5)"
+    }
+  },
+  "gestures": {
+    "bonjour": {
+      "sequence": [
+        {
+          "type": "hand",
+          "position": { "x": 0.5, "y": 0.7, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": -45 },
+          "fingers": [
+            { "id": "thumb", "flex": 0.2 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 500,
+          "attributes": {
+            "familiarite": 4.8,
+            "concretude": 3.5,
+            "iconicite": 3.2
+          }
+        },
+        {
+          "type": "hand",
+          "position": { "x": 0.6, "y": 0.8, "z": 0.1 },
+          "rotation": { "x": 0, "y": 0, "z": -30 },
+          "fingers": [
+            { "id": "thumb", "flex": 0.2 },
+            { "id": "index", "flex": 0 },
+            { "id": "middle", "flex": 0 },
+            { "id": "ring", "flex": 0 },
+            { "id": "pinky", "flex": 0 }
+          ],
+          "duration": 500
+        }
+      ]
+    }
+  }
+}
